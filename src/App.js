@@ -47,9 +47,11 @@ const App = () => {
 				<p style={{ 
 					fontWeight: 'bold', 
 					color: passwordStatusColor, 
-				  }}>{passwordStatus}
-         </p>
-       } 
+				  }}
+        >
+          {passwordStatus}
+        </p>
+      } 
 		</div> 
 	); 
 } 
