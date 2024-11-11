@@ -26,10 +26,12 @@ const App = () => {
 	} 
 
 	return ( 
-		<div style={{
+		<div style=
+      {{
       width: "30rem",
 			margin: "auto" 
-		}}> 
+		  }}
+    > 
 		  <H2Header textContent="Check Password Strength"/>
       <Instructions
         length="8"
@@ -44,7 +46,8 @@ const App = () => {
         onChange={(e) => validate(e.target.value)}
       />
 			{passwordStatus === '' ? null : 
-				<p style={{ 
+				<p style=
+          {{ 
 					fontWeight: 'bold', 
 					color: passwordStatusColor, 
 				  }}
