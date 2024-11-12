@@ -3,9 +3,6 @@ import React from "react";
 function TextInput(props) {
 
   const styles = {
-    labelStyle: {
-      fontSize: '1rem'
-    },
     searchBarStyle: {
       width: '90%',
       boxSizing: 'border-box',
