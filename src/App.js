@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import validator from 'validator'
 
 // Components imports
-import H2Header from "./components/H2Header";
+import H2Heading from "./components/H2Heading";
 import TextInput from "./components/TextInput";
 import Instructions from "./components/Instructions";
 
@@ -32,7 +32,7 @@ const App = () => {
 			margin: "auto" 
 		  }}
     > 
-		  <H2Header textContent="Check Password Strength"/>
+		  <H2Heading textContent="Check Password Strength"/>
       <Instructions
         length="8"
         numOfUppercase="1"
